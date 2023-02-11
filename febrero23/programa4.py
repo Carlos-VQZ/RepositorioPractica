@@ -1,0 +1,8 @@
+""" Programa4
+    Nombre: Juan Carlos Hernandez Vazquez
+    Fecha: 010/02/2023
+    Descripcion:Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla <NOMBRE> tiene <n> letras, donde <NOMBRE> es el nombre de usuario en mayúsculas y <n> es el número de letras que tienen el nombre...."""
+
+nombre = input("¿Cómo te llamas? ")
+print(nombre.upper() + " tiene " + str(len(nombre)) + " letras")
+
